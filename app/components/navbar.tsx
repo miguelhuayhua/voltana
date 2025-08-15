@@ -15,7 +15,7 @@ export default function Navbar() {
                 <Link href={"/"} >
                   <Image
                     src="/logo.png"
-                    alt="AVM Logo"
+                    alt="VOLTANA Logo"
                     width={90}
                     height={40}
                     className="object-cover w-full h-full"

@@ -23,7 +23,7 @@ export default function AboutSection (){
               <div className="animate-slide-in-left">
                 <h3 className="text-lg text-primary font-bold mb-4">Nuestra Experiencia</h3>
                 <p className="mb-4 text-sm font-medium leading-relaxed">
-                  Con más de 25 años de experiencia, AVM se especializa en la elaboración de ventanas de aluminio,
+                  Con más de 25 años de experiencia, VOLTANA se especializa en la elaboración de ventanas de aluminio,
                   fabricación de muebles de melamina y venta de vidrios. Nuestro compromiso es ofrecer productos de
                   calidad con un servicio confiable y profesional.
                 </p>
@@ -36,7 +36,7 @@ export default function AboutSection (){
                 <div className="relative w-full h-80 rounded-xl overflow-hidden group shadow-xl">
                   <Image
                     src="/fondo2.jpg"
-                    alt="Taller AVM"
+                    alt="Taller VOLTANA"
                     width={480}
                     height={420}
                     className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
