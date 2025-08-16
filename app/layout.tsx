@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-export const metadata = {
+export const metadata: Metadata = {
   title: "VOLTANA",
   description: "Baterías eficientes para autos, motos y más.",
   openGraph: {
@@ -24,7 +24,7 @@ export const metadata = {
     siteName: "VOLTANA",
     images: [
       {
-        url: "https://voltana-bo.vercel.app/og-image.png",
+        url: "https://voltana-bo.vercel.app/op-normal.png",
         width: 1200,
         height: 630,
         alt: "VOLTANA",
@@ -38,6 +38,7 @@ export const metadata = {
     description: "Baterías eficientes para autos, motos y más.",
     images: ["https://voltana-bo.vercel.app/og-image.png"],
   },
+
 };
 
 export default function RootLayout({
