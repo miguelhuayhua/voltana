@@ -11,7 +11,7 @@ export default function FeatureSection() {
             ¿Por Qué Elegir Voltana Bolivia?
           </h2>
           <p className="text-base animate-fade-in-up animation-delay-200 font-medium">
-            Las mejores baterías del mercado boliviano con garantía y calidad
+            Batería duraderas y para todo tipo de vehículo
           </p>
         </div>
         <div className="grid md:grid-cols-3  gap-6">
@@ -26,7 +26,7 @@ export default function FeatureSection() {
               titulo: "Entrega en Bolivia",
               descripcion: "Cobertura nacional en principales ciudades",
             },
-            
+
             {
               icon: Zap,
               titulo: "Asesoría Técnica",

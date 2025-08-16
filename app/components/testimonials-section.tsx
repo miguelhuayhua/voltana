@@ -170,7 +170,6 @@ export default function TestimonialSection() {
 
                   <Badge
                     variant="secondary"
-                    className="bg-primary/10 text-primary border-primary/20 hover:bg-primary/20"
                   >
                     ⚡ {testimonio.producto}
                   </Badge>

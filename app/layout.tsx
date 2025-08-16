@@ -18,6 +18,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "VOLTANA",
   description: "Tienda especializada en baterías automotrices",
+  openGraph: {
+    title: "VOLTANA",
+    description: "Tienda especializada en baterías automotrices",
+    url: "https://voltana-bo.vercel.app",
+    siteName: "VOLTANA",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "es_BO",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
