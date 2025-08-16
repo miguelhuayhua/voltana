@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
         title: titulo,
         description: descripcion,
         type: 'article',
-        url: `https://VOLTANA-bo.vercel.app/catalogo/${id}`,
+        url: `https://voltana-bo.vercel.app/catalogo/${id}`,
         images:
         {
           url: imagenPrincipal,
@@ -71,7 +71,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 
       // Canonical URL
       alternates: {
-        canonical: `https://VOLTANA-bo.vercel.app/producto/${id}`,
+        canonical: `https://voltana-bo.vercel.app/producto/${id}`,
       },
 
       // Robots

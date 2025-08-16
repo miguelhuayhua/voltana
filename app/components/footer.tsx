@@ -117,10 +117,10 @@ export default function Footer() {
             </svg>
             VOLTANA
           </div>
-          <p className="text-sm font-medium">&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
+          <p className="text-xs font-medium">&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
         </div>
 
-        <small className="flex gap-1 text-gray-500 justify-center  items-center">
+        <small className="flex gap-1 mt-2 text-gray-500 justify-center  items-center">
           <span>Powered by </span>
           <Image alt="logo" width={50} height={20} src="/light.png" className="mt-1" />
         </small>
