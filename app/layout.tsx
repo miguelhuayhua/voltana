@@ -24,26 +24,21 @@ export const metadata: Metadata = {
     siteName: "VOLTANA",
     images: [
       {
-        url: "https://voltana-bo.vercel.app/op-normal.png", // Nota: corregí el nombre
+        url: "https://voltana-bo.vercel.app/op-normal.png",
         width: 1200,
         height: 630,
-        alt: "VOLTANA - Baterías eficientes para autos, motos y más",
-        type: "image/png",
+        alt: "VOLTANA",
       },
     ],
     type: "website",
-    locale: "es_BO", // Agregado para Bolivia
   },
   twitter: {
     card: "summary_large_image",
     title: "VOLTANA",
     description: "Baterías eficientes para autos, motos y más.",
     images: ["https://voltana-bo.vercel.app/og-image.png"],
-    creator: "@voltana", // Si tienes Twitter
   },
-  // Agregado para más compatibilidad
-  viewport: "width=device-width, initial-scale=1",
-  robots: "index, follow",
+
 };
 
 export default function RootLayout({
