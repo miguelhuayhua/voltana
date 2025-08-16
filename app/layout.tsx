@@ -14,24 +14,29 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-export const metadata: Metadata = {
+export const metadata = {
   title: "VOLTANA",
-  description: "Tienda especializada en baterías automotrices",
+  description: "Baterías eficientes para autos, motos y más.",
   openGraph: {
     title: "VOLTANA",
-    description: "Tienda especializada en baterías automotrices",
+    description: "Baterías eficientes para autos, motos y más.",
     url: "https://voltana-bo.vercel.app",
     siteName: "VOLTANA",
     images: [
       {
-        url: "/og-image.png",
+        url: "https://voltana-bo.vercel.app/og-image.png",
         width: 1200,
         height: 630,
+        alt: "VOLTANA",
       },
     ],
-    locale: "es_BO",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "VOLTANA",
+    description: "Baterías eficientes para autos, motos y más.",
+    images: ["https://voltana-bo.vercel.app/og-image.png"],
   },
 };
 
